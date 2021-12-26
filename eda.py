@@ -110,7 +110,7 @@ for c in classes:
     wav_file = df[df.label == c].iloc[0,0]
     signal, rate = librosa.load('wavfiles/'+wav_file, sr=48000)
     mask = envelope(signal, rate, 0.0005)
-    signak = signal[mask]
+    signal = signal[mask]
     signals[c] = signal
     fft[c] = calc_fft(signal, rate)
     bank = logfbank(signal[:rate], rate, nfilt = 26, nfft = 1200).T
