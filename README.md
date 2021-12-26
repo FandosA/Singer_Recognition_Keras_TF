@@ -2,6 +2,8 @@
 
 In this project, I implemented a dense neural network, a convolutional neural network and a recurrent neural network for singer recognition. The 4 singers with whom I trained the networks were Bruce Dickinson (Iron Maiden), Freddie Mercury (Queen), James Hetfield (Metallica) and Michael Jackson. This project was my final bachelor's degree thesis, which can be found and read [here](https://zaguan.unizar.es/record/96551/files/TAZ-TFG-2020-2198.pdf) (spanish).
 
+All audio tracks used in this project are 30 seconds long due to Copyright. By having the tracks this duration and using them for academic purposes, the well-known "Fair Use" is applied. "Fair use" is a doctrine in United States law that permits limited use of copyrighted material without having to first acquire permission from the copyright holder. For more information about this, you can refer to the official Copyright [website](https://www.copyright.gov/fair-use/more-info.html).
+
 
 
 ## Implementation
