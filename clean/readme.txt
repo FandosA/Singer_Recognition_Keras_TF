@@ -1,0 +1,1 @@
+In this folder, the tracks from the ``wavfiles`` folder will be saved when runing the ```eda.py``` file. In this file, the rate of the tracks is reduced in order to make the training faster. Before runing this file, remove this txt file.
