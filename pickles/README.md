@@ -1,5 +1,3 @@
-In this folder, the pickles will be saved after the training.
-
 In this folder, the pickles will be saved after the training. If you don't want to overwrite the pretained pickles, change the name
 of these pickles before training a new one.
 
