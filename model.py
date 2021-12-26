@@ -166,7 +166,7 @@ class_weight = compute_class_weight(class_weight='balanced',
                                     classes=np.unique(y_flat),
                                     y=y_flat)
 
-checkpoint = ModelCheckpoint(config.model_path, monitor = 'val_accuracy', verbose = 2, mode = 'max',
+checkpoint = ModelCheckpoint(config.model_path, monitor = 'val_acc', verbose = 2, mode = 'max',
                              save_best_only = True, save_weights_only = False, save_freq = 1)
 
 history = model.fit(X, y, epochs = 100, batch_size=1000, shuffle = True,
