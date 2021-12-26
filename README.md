@@ -36,7 +36,7 @@ The first thing to do is to remove the ``README.md`` files from the ``clean`` an
 ```
 python eda.py
 ```
-The audio tracks will be processed and they will be ready to train the model. Now set the mode mentioned above in order to choose the type of neural network you want to train and then run
+The audio tracks will be processed and they will be ready to train the model. Now, in the file ``model.py``, set the mode mentioned above in order to choose the type of neural network you want to train and then run
 ```
 python model.py
 ```
