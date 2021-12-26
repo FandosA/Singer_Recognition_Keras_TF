@@ -59,7 +59,7 @@ df = pd.read_csv('singers_test.csv')
 df.set_index('fname', inplace=True)
 
 for f in df.index:
-    rate, signal = wavfile.read('toPredict/'+f)
+    rate, signal = wavfile.read('wavfiles_ToPredict/'+f)
     df.at[f, 'length'] = signal.shape[0]/rate
 
 df.reset_index(inplace = True)
