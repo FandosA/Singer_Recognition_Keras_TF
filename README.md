@@ -50,7 +50,7 @@ and both the preprocessing of the audio tracks to be tested and the predictions 
 
 ## Possible modifications
 
-If you want to try this networks with your own dataset, you should replace the wav files from the ``wavfiles/`` and ``wavfiles_ToPredict/`` folders with whatever you want, and also change the content of ``singers.csv`` and ``singers_test.csv``, adapting them to your dataset. Also, it is very likely that the number of labels you have in your dataset is different, so you will have to change the number of neurons in the output layer of the models. Make sure to configure it so that it does not have errors.
+If you want to try this networks with your own dataset, you should replace the wav files from the ``wavfiles/`` and ``wavfiles_ToPredict/`` folders with whatever you want, and also change the content of ``singers.csv`` and ``singers_test.csv``, adapting them to your dataset. Also, it is very likely that the number of labels you have in your dataset is different, so you will have to change the number of neurons in the output layer of the models.
 
 
 
