@@ -66,4 +66,4 @@ If you find this work useful in your research, please cite:
 }
 ```
 or
-> Fandos, A.. “Reconocimiento de vocalistas mediante redes neuronales profundas”. Bachelor’s Thesis. University of Zaragoza, 2020.
+> Fandos, A. “Reconocimiento de vocalistas mediante redes neuronales profundas”. Bachelor’s Thesis. University of Zaragoza, 2020.
