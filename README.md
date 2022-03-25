@@ -62,7 +62,7 @@ If you find this work useful in your research, please cite:
       title = "Reconocimiento de vocalistas mediante redes neuronales profundas",
       school = "University of Zaragoza",                 
       type = "Bachelor's Thesis",            
-      year = "2020",
+      year = "2020"
 }
 ```
 or
