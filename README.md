@@ -58,7 +58,7 @@ If you want to try this networks with your own dataset, you should replace the w
 If you find this work useful in your research, please cite:
 ```
 @thesis{FandosA,
-      author = "Fandos, Andrés and Civera, Javier",
+      author = "Fandos, Andrés",
       title = "Reconocimiento de vocalistas mediante redes neuronales profundas",
       school = "University of Zaragoza",                 
       type = "Bachelor's Thesis",            
@@ -66,4 +66,4 @@ If you find this work useful in your research, please cite:
 }
 ```
 or
-> Fandos, A. and Civera, J. “Reconocimiento de vocalistas mediante redes neuronales profundas”. Bachelor’s Thesis. University of Zaragoza, 2020.
+> Fandos, A.. “Reconocimiento de vocalistas mediante redes neuronales profundas”. Bachelor’s Thesis. University of Zaragoza, 2020.
