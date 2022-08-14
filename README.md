@@ -57,14 +57,14 @@ If you want to try this networks with your own dataset, you should replace the w
 ## Citation
 If you find this work useful in your research, please cite:
 ```
-@thesis{FandosA,
-      author = "Fandos, Andrés",
-      title = "Reconocimiento de vocalistas mediante redes neuronales profundas",
+@thesis{AndresFandos2020,
+      author = {Fandos, Andrés},
+      title = {Reconocimiento de vocalistas mediante redes neuronales profundas},
       address = {Spain},
-      school = "University of Zaragoza",                 
-      type = "Bachelor's Thesis",            
-      year = "2020"
+      school = {University of Zaragoza},                 
+      type = {Bachelor's Thesis},            
+      year = {2020}
 }
 ```
 or
-> Fandos, A. “Reconocimiento de vocalistas mediante redes neuronales profundas”. Bachelor’s Thesis. University of Zaragoza, 2020.
+> Andrés Fandos. “Reconocimiento de vocalistas mediante redes neuronales profundas”. Bachelor’s Thesis. Spain: University of Zaragoza, 2020.
