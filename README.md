@@ -60,6 +60,7 @@ If you find this work useful in your research, please cite:
 @thesis{FandosA,
       author = "Fandos, Andrés",
       title = "Reconocimiento de vocalistas mediante redes neuronales profundas",
+      address = {Spain},
       school = "University of Zaragoza",                 
       type = "Bachelor's Thesis",            
       year = "2020"
