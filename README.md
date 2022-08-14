@@ -54,7 +54,7 @@ If you want to try this networks with your own dataset, you should replace the w
 
 
 
-## Citation
+# Citation
 If you find this work useful in your research, please cite:
 ```
 @thesis{AndresFandos2020,
