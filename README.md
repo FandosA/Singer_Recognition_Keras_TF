@@ -11,18 +11,11 @@ All audio tracks used in this project are 30 seconds long due to Copyright. By h
 The file ``cfg.py`` contains the features to preprocess the audio before training the model, as well as the folders in which those models and the pickles will be saved once the model is trained.
 
 The file ``eda.py`` performs the preprocessing of the audio tracks. In the ``singers.csv`` file are all names of all audio tracks that the model will use to train and their corresponding labels. Basically, the tracks are loaded from the ``wavfiles/`` folder, their sample rate is reduced from 48,000Hz to 16,000Hz in order to do the training faster, and the new audio tracks are stored in the ``clean/`` folder. Besides, an audio track of each singer is taken and their signal, their Fourier Transform, their Filter Bank Coefficients and their MFCC are plotted. For audio, the most common feature to work with in deep learning is the MFCC (Mel frequency Cepstral Coefficient).
-<p align="center">
+
 ![signal](https://user-images.githubusercontent.com/71872419/147421132-96eeb031-de2a-4e21-802b-6bf70e57780a.png)
-</p>
-<p align="center">
 ![fft](https://user-images.githubusercontent.com/71872419/147421143-57b64e59-b4ab-4b6f-b215-91afa438932c.png)
-</p>
-<p align="center">
 ![fbc](https://user-images.githubusercontent.com/71872419/147421146-664d55d9-74ef-462d-9323-0118969601c0.png)
-</p>
-<p align="center">
 ![mfcc](https://user-images.githubusercontent.com/71872419/147421149-ff57af51-3dcc-47c8-afcc-ed35aa4255dc.png)
-</p>
 
 The ``model.py`` file contains the implementation of the three neural networks, dense, convolutional or recurrent. To select the one you want, you have to set the mode in the line 144 to "feedforward", "conv" or "time", depending on the neural network you want to implement, respectively. The models and pickles will be saved in the ``models/`` and ``pickles/`` folders, and once the training is finished, the loss and accuracy curves will be plotted. For example, for the CNN network, I got these curves:
 
