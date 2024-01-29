@@ -22,9 +22,9 @@ The ``model.py`` file contains the implementation of the three neural networks, 
 <img src="https://user-images.githubusercontent.com/71872419/147421193-09dfe7db-50d9-4250-a831-2c27e5d97d3d.png" width="408" height="300">   <img src="https://user-images.githubusercontent.com/71872419/147421196-54641f2f-458c-43ec-8834-9729bd10be70.png"  width="408" height="300">
 
 Finally, the file ``predict.py`` contains the implementation for making predictions. In the ``singers_test.csv`` file are all names of all audio tracks that will be used to test the model. First, the audio tracks to be predicted, contained in the ``wavfiles_ToPredict/`` folder, are preprocessed in the same way as in the ``eda.py`` file. Once this preprocessing is done, the new tracks are stored in the ``clean_test/`` folder. Then, the model will be tested with these tracks, and the predictions will be saved in a file like the ``Predictions_Example.csv`` one. It contains the name of the audio file, the original label, the probability that each singer is the one who sings on that track, and the singer with the largest probability.
-<p align="center">
+
 ![predictions](https://user-images.githubusercontent.com/71872419/147421229-0a13bf35-c236-464b-9535-1e0db797d266.PNG)
-</p>
+
 
 
 ## Run the implementation
